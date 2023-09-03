@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display flex</title>
+    <style>
+        .container{
+            background-color: rgb(173, 223, 153);
+            display: flex;
+            gap: 60px;
+            width: 700px;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 11px;
+        }
+        li{
+            
+            list-style: none;
+            
+            font-size: 30px;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .explain{
+            background-color: aqua;
+            width: 1000px;
+            font-size: 25px;
+            padding: 30px;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 11px;
+            /* margin: 20px; */
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+    </style>
+</head>
+<body>
+    <h1>display flex</h1>
+    <div class="container">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Servicess</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+
+
+
+    </div>
+    <div class="explain">
+        
+            <p>
+                here we Only dicuss about flex box and how to display it.
+            </p>
+            <p>
+                we use the container div as "Display: flex" it will show all the element column wise
+            </p>
+            <p>
+                Gap: which define the required gap we want to for the flex element.
+            </p>
+            <p>
+                list-style: which will define the list style "list-style: none" define the li will not be any initial point or mark.
+            </p>
+        
+    </div>
+</body>
+</html>
