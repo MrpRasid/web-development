@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        #formid{
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png');
+        }
+    </style>
+</head>
+<body>
+    <form action="backend.php" id="formid">
+        <label for="name">Name</label>
+        <div>
+             <input type="text" name="myName" id="name">
+
+        </div>
+        <br>
+        <div>
+            Class: <input type="number" name="myclass">
+
+        </div>
+        <br>
+        <label for="branch">Branch</label>
+        <select name="myBranch" id="branch">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="CIVIL">CIVIL</option>
+        </select>
+        <br>
+        <br>
+        <div>
+            Email: <input type="email" name="Mymail">
+
+        </div>
+        <br>
+        <div>
+            Sex: Male<input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Date:  <input type="date" name="mydate" >
+        </div>
+        <br>
+        <div>
+            write about yourself <textarea name="mytext" cols="20" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="check">conform the terms</label>
+        <div>
+             <input type="checkbox" id="check">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+          <input type="submit" value="Submit Now">
+
+        </div>
+    </form>
+</body>
+</html>

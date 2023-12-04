@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid rgb(113, 121, 139);
+            margin: 33px auto;
+            background: rgb(141, 174, 189);
+        }
+        .item{
+            border: 3px solid rgb(103, 101, 101);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(181, 164, 185);
+            
+        }
+
+        #first{
+            float: left;
+            width: 48%;
+        }
+        #second{
+            float: left;
+            width: 48%;
+        }
+
+        #third{
+            /* float: left; */
+            clear: left;
+            width: 100%;
+        }
+        h1{
+            margin: auto;
+            padding: 11px;
+            width: 445px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <h1>This is the first site</h1>
+        <div id="first" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda doloribus quidem autem nihil est. Ipsam optio est iusto ipsum, eos quis ea quibusdam impedit expedita eius, tempore voluptatibus minus quo?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque hic impedit tempora soluta temporibus magnam! Odio enim consectetur cum quibusdam. Dolore ullam porro asperiores magni, accusamus dolorum hic natus dicta?
+        </div>
+
+
+        <div id="second" class="item" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos deserunt quae sunt commodi perferendis blanditiis dolore, temporibus quasi provident ipsum quas laudantium nisi delectus dicta a expedita, quaerat iure.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dicta. Consectetur eligendi ex delectus magnam, repellendus ipsum reiciendis accusamus ab tenetur earum officiis harum quia pariatur omnis culpa. Reiciendis, expedita.
+        </div>
+
+        <div id="third" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis, quasi modi aperiam facere esse. Ab laboriosam expedita porro assumenda sapiente dolores, officia itaque ducimus, quasi voluptates nobis, dolorum eligendi.</div>
+
+        <div id="para" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione cum ullam repudiandae accusamus voluptatum itaque voluptas eaque ea perferendis illo, voluptate tempore aliquam architecto dignissimos ipsam ipsum. Porro, assumenda non!
+        </div>
+    </div>
+</body>
+</html>

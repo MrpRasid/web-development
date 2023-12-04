@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        body{
+            background-color: rgb(144, 179, 210);
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: rgb(241 217 250);
+            border: 3px solid rgb(44, 36, 117);
+            padding: 34px 19px;
+            margin: 34px 19px;
+
+            border-radius: 23px;
+            width: 533px;
+        }
+        h3{
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">  
+        <h3>This is title</h3>
+        <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempore eum earum amet fugit dolore accusantium, culpa facilis ab doloribus mollitia quia quis quidem repellendus aspernatur reprehenderit natus inventore. Neque.</p>
+        
+    </div>
+
+    <div class="container">
+
+        <h3>This is second title</h3>
+        <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempore eum earum amet fugit dolore accusantium, culpa facilis ab doloribus mollitia quia quis quidem repellendus aspernatur reprehenderit natus inventore. Neque.</p>
+
+    </div>
+</body>
+</html>
