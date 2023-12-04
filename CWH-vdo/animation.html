@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .container{
+            background-color: aqua;
+        }
+        .box{
+            width: 120px;
+            height: 120px;
+            background-color: antiquewhite;
+            position: relative;
+            /* animation: mrp 3s timing-function delay iteration-count direction fill-mode; */
+            animation-name: mrp;
+            animation-duration: 3s;
+            animation-iteration-count: 5;
+        }
+        @keyframes mrp{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+            }
+            75%{
+                top: 250px;
+                left: 250px;
+            }
+            100%{
+                top: 0px;
+                left: 250px;
+
+            }
+        }
+
+        /* @keyframes mrp{
+            from{
+                width: 200px;
+            }
+
+            to{
+                width: 500px;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is the box</div>
+    </div>
+</body>
+</html>
