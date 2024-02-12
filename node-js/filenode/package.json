@@ -1,0 +1,16 @@
+{
+  "name": "filenode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileSystem.js",
+   "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "System"
+  ],
+  "author": "Mamun",
+  "license": "ISC"
+}
